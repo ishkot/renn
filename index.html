@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RENNESSY LLC</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #aaa;
+      font-size: 1rem;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #222;
+      padding-bottom: 5px;
+    }
+
+    .about p,
+    .services p {
+      color: #ccc;
+    }
+
+    /* ARTISTS */
+    .artists ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .artists li {
+      padding: 10px 0;
+      border-bottom: 1px solid #1a1a1a;
+    }
+
+    .artists a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .artists a:hover {
+      color: #fff;
+    }
+
+    /* PRESS VIDEO */
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin-bottom: 25px;
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .press-links a {
+      display: block;
+      margin-bottom: 10px;
+      color: #ccc;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .press-links a:hover {
+      color: #fff;
+    }
+
+    /* SHOWS */
+    .flyers {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .flyers img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #222;
+      transition: transform 0.25s ease;
+    }
+
+    .flyers img:hover {
+      transform: scale(1.03);
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid #222;
+      padding-top: 30px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>RENNESSY LLC</h1>
+      <p>Artist & DJ Management • Event Production • Touring • Consulting</p>
+    </header>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>
+        RENNESSY LLC is an artist and DJ management company specializing in live music,
+        DJ event production, tour coordination, and entertainment consulting.
+        We work closely with talent and clients to create impactful experiences
+        across music, nightlife, and live events.
+      </p>
+    </section>
+
+    <section class="services">
+      <h2>Services</h2>
+      <p>
+        Artist & DJ Management<br/>
+        Live Music & DJ Event Production<br/>
+        Tour Coordination<br/>
+        Entertainment Consulting<br/>
+        Creative & Talent Development
+      </p>
+    </section>
+
+    <section class="artists">
+      <h2>Artists</h2>
+      <ul>
+        <li><a href="https://soundcloud.com/djrennessy" target="_blank">DJ Rennessy</a></li>
+        <li><a href="https://soundcloud.com/xaviersobased" target="_blank">Xaviersobased</a></li>
+        <li><a href="https://soundcloud.com/ksuuvi" target="_blank">Ksuuvi</a></li>
+        <li>S3bby</li>
+      </ul>
+    </section>
+
+    <section class="press">
+      <h2>Recent Press</h2>
+
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/ucsVP5kaDko" 
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="press-links">
+        <a href="https://pitchfork.com/reviews/albums/xaviersobased-xavier/" target="_blank">
+          Pitchfork — Xaviersobased Album Review
+        </a>
+
+        <a href="https://www.thefader.com/2026/02/14/watch-xaviersobased-keep-it-going-fader-documentary" target="_blank">
+          The FADER — "Keep It Going" Documentary
+        </a>
+      </div>
+    </section>
+
+    <section class="shows">
+      <h2>Upcoming Shows</h2>
+
+      <div class="flyers">
+        <img src="flyer1.jpg" alt="Show Flyer 1">
+        <img src="flyer2.jpg" alt="Show Flyer 2">
+        <img src="flyer3.jpg" alt="Show Flyer 3">
+      </div>
+
+    </section>
+
+    <footer>
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:contact@rennessy.world">contact@rennessy.world</a><br/>
+        Address: 75 Harding Ave, Clifton NJ 07011
+      </p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
